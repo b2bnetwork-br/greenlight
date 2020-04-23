@@ -65,7 +65,10 @@ pt_BR:
           open: Registro Aberto
       rooms:
         info: Limita o número de salas que um usuário pode ter (incluindo Sala Home). Essa configuração não se aplica para administradores.
-        title: Número de salas por Usuário.
+        title: Número de salas por usuário
+      shared_access:
+        info: Se desativado removerá o botão da lista suspensa de opções da sala, impedindo que os usuários compartilhem salas
+        title: Permitir que os usuários compartilhem salas
       subtitle: Personalizar B2BNetwork.live
       title: Configurações do Site
     flash:
@@ -88,11 +91,13 @@ pt_BR:
       title: Gravações do servidor
       no_recordings: Esse servidor não possui gravações
     roles:
+      appear_in_share_list: Inclua usuários com essa função na lista suspensa para compartilhar salas
       can_create_rooms: Pode criar salas
       delete: Remover o papel
       invalid_create: Ocorreu um erro ao criar um novo papel. Por favor verifique os valores inseridos e tente novamente
       invalid_order: Ocorreu um erro ao atualizar a prioridade do papel. Por favor verifique os valores inseridos e tente novamente
       invalid_update: Ocorreu um erro ao atualizar as permissões do papel. Por favor verifique os valores inseridos e tente novamente
+      manage_rooms_recordings: Permitir que usuários com essa função gerenciem salas do servidor e gravações
       name: Nome do papel
       new_role: Criar novo papel
       role_has_users: "Este papel está atribuído às contas %{user_count}. Por favor remova o papel de todas as contas antes de apagá-lo."
