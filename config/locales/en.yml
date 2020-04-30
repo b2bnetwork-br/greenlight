@@ -385,9 +385,9 @@ pt_BR:
     all_recordings: Gravações
     email: Enviar link da gravação por e-mail
     error: "Ocorreu um erro ao recuperar %{count} gravações"
-    no_recordings: "Esta sala não possui %{inject} gravações."
-    no_user_recordings: Você não possui gravações.
-    no_matched_recordings: "Nenhuma gravação corresponde à sua busca %{inject}."
+    no_recordings: "Esta sala não possui gravações %{inject}"
+    no_user_recordings: Você não possui gravações
+    no_matched_recordings: "Nenhuma gravação %{inject} corresponde à sua busca"
     recorded_on: "Gravado em %{date}"
     table:
       name: Nome
@@ -398,6 +398,9 @@ pt_BR:
       formats: Formatos
     visibility:
       public: Público
+      publics: Públicos
+      publica: Pública
+      publicas: Públicas
       unlisted: Não listado
     format:
       notes: Notas
@@ -455,7 +458,7 @@ pt_BR:
       recent_rooms: Ir para uma sala recente
       title: Entrar na sala
     no_sessions: Nenhuma sessão foi realizada nesta sala.
-    recordings: Gravações da Sala
+    recordings: "Gravações da Sala"
     room_limit: Você atingiu o número máximo de salas permitido
     room_limit_exceeded: "Você excedeu o número de salas permitido. Por favor, delete %{difference} sala(s) para acessar essa sala."
     sessions: Sessões
