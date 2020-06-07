@@ -441,6 +441,10 @@ pt_BR:
     create_room: Criar uma Sala
     create_room_error: Ocorreu um erro ao criar a sala
     create_room_success: Sala criada com sucesso
+    delete:
+      home_room: Não é possível excluir a sala inicial do usuário
+      success: Sala excluída com sucesso
+      fail: Falha ao excluir a sala (%{error})
     enter_the_access_code: Insira o código de acesso da sala
     invalid_provider: Você inseriu uma URL inválida. Por favor verifique a URL e tente novamente
     invited: Você foi convidado a participar
