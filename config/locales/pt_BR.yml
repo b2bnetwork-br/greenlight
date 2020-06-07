@@ -123,6 +123,7 @@ pt_BR:
         delete: Apagar
         edit: Editar
         edit_roles: Editar papéis do usuário
+	merge: Mesclar
         perm_delete: Apagar permanentemente
         unban: Desbanir Usuário
         undelete: Restaurar
