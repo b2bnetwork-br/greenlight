@@ -15,7 +15,8 @@
 
 <% valid_access_code = @room.access_code.nil? || @room.access_code.empty? || @room.access_code == session[:access_code] %>
 <%= render 'rooms/components/room_event', render_recordings: valid_access_code do %>
-<p class="text-center mb-1">Aten&ccedil;&atilde;o: a plataforma n&atilde;o &eacute; compat&iacute;vel com o navegador Internet Explorer.</p>
+<!-- p class="text-center mb-1">Aten&ccedil;&atilde;o: a plataforma n&atilde;o &eacute; compat&iacute;vel com o navegador Internet Explorer.</p -->
+<p class="text-center mb-1">Digite seu nome e sobrenome e clique em [ Participar ]</p>
   <% if room_authentication_required %>
     <h2><%= t("administrator.site_settings.authentication.user-info") %></h2>
   <% elsif !valid_access_code %>

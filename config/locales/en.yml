@@ -16,7 +16,7 @@
 
 # Locale.
 
-pt_BR:
+en:
   activerecord:
     attributes:
       user:

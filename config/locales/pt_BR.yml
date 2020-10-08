@@ -154,7 +154,7 @@ pt_BR:
   docs: Documentação
   email: E-mail
   email_sent: "Seu e-mail de %{email_type} foi enviado! (se você não recebeu, ele pode ter caído na sua caixa de spam)"
-  enter_your_name: Insira seu nome
+  enter_your_name: Digite seu nome e sobrenome aqui
   errors:
     bigbluebutton:
       help: "Por favor, tenha certeza que as etapas apropriadas foram finalizadas. <a href=\"%{doc_link}\">Saiba mais</a>"
@@ -447,12 +447,12 @@ pt_BR:
       fail: Falha ao excluir a sala (%{error})
     enter_the_access_code: Insira o código de acesso da sala
     invalid_provider: Você inseriu uma URL inválida. Por favor verifique a URL e tente novamente
-    invited: Você foi convidado a participar
+    invited: Você foi convidado a participar da Sala
     invite_participants: Convidar participantes
     join: Participar
     last_session: "Última sessão em %{session}"
     login: Entrar
-    owner: Dono
+    owner: Gestor
     no_room:
       description: Insira a URL da sala ou o ID da sala que você quer entrar.
       edit_profile: Modificar perfil de usuário
@@ -474,8 +474,8 @@ pt_BR:
     update_settings_error: Ocorreu um erro ao atualizar as configurações da sala
     update_settings_success: Configurações da sala atualizadas com sucesso
     wait:
-      message: Essa reunião ainda não começou.
-      auto: Você será automaticamente inserido na reunião quando ela começar.
+      message: Aguarde uns minutinhos!?!? Essa reunião ainda não começou...
+      auto: Você entrará automaticamente assim que reunião começar!
   settings:
     account:
       fullname: Nome Completo
